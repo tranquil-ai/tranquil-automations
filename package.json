@@ -1,0 +1,24 @@
+{
+  "name": "tranquil-automations",
+  "main": "./lib/tranquil-automations",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/tranquil-ai/tranquil-automations",
+  "author": "bitsquant <https://github.com/bitsquant>",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0",
+    "puppeteer-core": "^10.1.0"
+  },
+  "consumedServices": {
+    "runInTerminal": {
+      "versions": {
+        "0.14.5": "consumeRunInTerminal"
+      }
+    }
+  }
+}
